@@ -24,7 +24,8 @@
                             <span class="text-[16px]"><i class="text-[18px] fa-solid fa-comment"></i> 100</span>
                         </div>
                     </div>
-                    <img class="self-center max-h-[120px]" src="{{ asset('images/dummy.png') }}" alt="Image">
+                    <img class="self-center max-h-[120px]" src="{{ asset('storage/' . $eachBerita->image) }}"
+                        alt="{{ $eachBerita->title }}">
                 </div>
                 <hr class="border-[#2F4858] border-t w-9/10 ml-auto mr-auto mt-4 scale-y-[0.5] origin-top mb-[24px]">
             </div>

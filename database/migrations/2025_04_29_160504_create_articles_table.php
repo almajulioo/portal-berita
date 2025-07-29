@@ -15,8 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
-            $table->foreignId('user_id')->constrained();
-            $table->foreignId('category_id')->constrained();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();;
+            $table->foreignId('category_id')->constrained()->cascadeOnDelete();;
+            $table->longText('image')->nullable();
+            // $table->boolean('is_liked')->default(false);
+            // $table->foreignId('liked_by_user_id')->nullable()->constrained(); 
             $table->timestamps();
         });
     }

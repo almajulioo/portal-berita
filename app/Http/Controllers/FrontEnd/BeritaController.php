@@ -20,4 +20,14 @@ class BeritaController extends Controller
         $berita = Article::findOrFail($id);
         return view('detail')->with('berita', $berita);
     }
+
+    // public function like($id)
+    // {
+    //     $berita = Article::findOrFail($id);
+    //     $berita->is_liked = !$berita->is_liked; 
+    //     $berita->liked_by_user_id = auth()->id(); 
+    //     $berita->save();
+
+    //     return redirect()->back()->with('success', 'Berita updated successfully!');
+    // }
 }
