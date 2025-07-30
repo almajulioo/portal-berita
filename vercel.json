@@ -30,5 +30,5 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "buildCommand": "npm install && npm run build l"
+    "buildCommand": "npm install && npm run build"
 }
