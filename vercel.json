@@ -16,7 +16,6 @@
         "APP_URL": "https://yourprojectdomain.com",
 
         "APP_STORAGE": "/tmp/storage",
-
         "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
 
         "APP_CONFIG_CACHE": "/tmp/storage/bootstrap/cache/config.php",
@@ -31,6 +30,6 @@
 
         "APP_KEY": "YOUR_ACTUAL_APP_KEY_HERE"
     },
-    "installCommand": "composer install --no-dev --optimize-autoloader && php artisan config:clear && php artisan cache:clear && php artisan view:clear",
+    "installCommand": "php artisan config:clear && php artisan cache:clear && php artisan view:clear",
     "buildCommand": "php artisan optimize"
 }
