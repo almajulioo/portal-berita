@@ -15,19 +15,15 @@
         "APP_DEBUG": "true",
         "APP_URL": "https://yourprojectdomain.com",
 
-        "APP_STORAGE": "/tmp/storage",
-        "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
-
-        "APP_CONFIG_CACHE": "/tmp/storage/bootstrap/cache/config.php",
-        "APP_EVENTS_CACHE": "/tmp/storage/bootstrap/cache/events.php",
-        "APP_PACKAGES_CACHE": "/tmp/storage/bootstrap/cache/packages.php",
-        "APP_ROUTES_CACHE": "/tmp/storage/bootstrap/cache/routes.php",
-        "APP_SERVICES_CACHE": "/tmp/storage/bootstrap/cache/services.php",
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
 
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie",
-
-        "APP_KEY": "YOUR_ACTUAL_APP_KEY_HERE"
+        "SESSION_DRIVER": "cookie"
     }
 }
