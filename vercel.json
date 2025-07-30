@@ -29,7 +29,5 @@
         "SESSION_DRIVER": "cookie",
 
         "APP_KEY": "YOUR_ACTUAL_APP_KEY_HERE"
-    },
-    "installCommand": "php artisan config:clear && php artisan cache:clear && php artisan view:clear",
-    "buildCommand": "php artisan optimize"
+    }
 }
